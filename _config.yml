@@ -1,11 +1,9 @@
-title: Your awesome title
+title: Dcell Blog
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Dcell
+  email: 767536477@qq.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  iOS/android/webapp developer.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,8 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    #twitter: jekyllrb
+    github:  Dcell
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -54,6 +52,18 @@ minima:
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
+ 
+
+# google_analytics settings
+google_analytics: UA-180827543-1
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: https-dcell-github-io
 
 plugins:
  - jekyll-feed
