@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "android动态配置Wifi信息"
-date:   2013-02-27 20:22:14 +0800
-categories: jekyll update
+comments: true
 ---
 #### 多人在开发应用的时候会代码连接Wifi的功能。 
 很多人认为 输入SSID和Password调用API 就可以去连接了啊，但是没有这种API，这种连接方式思路也是错的。

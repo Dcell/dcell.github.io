@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "iOS UIButton触发范围"
-date:   2017-02-22 9:32:25 +0800
-categories: jekyll update
+comments: true
 ---
 
 在开发过程中我经常被测试提的一个Bug就是：一个带图片的按钮老是点击不中，体验非常差。

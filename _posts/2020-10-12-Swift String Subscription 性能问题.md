@@ -1,3 +1,8 @@
+---
+layout: post
+comments: true
+---
+
 最近刷Leetcode非常的郁闷，一题有关字符串的算法，用Swift写实现一直都是超时。然后换成Java写又没问题，我一度怀疑都是Swift的字典不是用Hash索引的。
 尴尬的是最后才发现是Swift Subscription获取字节性能比较差。
 具体可以参考老外这篇文章[String Subscription and Performance Problems in Swift](https://programmer.help/blogs/string-subscription-and-performance-problems-in-swift.html)

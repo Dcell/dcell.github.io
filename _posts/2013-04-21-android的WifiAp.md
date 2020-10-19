@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "android的WifiAp"
-date:   2015-10-22 20:22:14 +0800
-categories: jekyll update
+comments: true
 ---
 ````
 看了WifiManager的源码。 关于AP这些 都是隐藏的。

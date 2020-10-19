@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "iOS UILabel 自动换行相关问题"
-date:   2017-02-20 14:41:25 +0800
-categories: jekyll update
+comments: true
 ---
 ## 有中/英文的时候，自动换行没有满足要求
 

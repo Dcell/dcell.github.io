@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "UIView的initWithFrame和initWithCoder"
-date:   2017-02-20 14:41:25 +0800
-categories: jekyll update
+comments: true
 ---
 1. ## initWithFrame: - It is recommended that you implement this method. You can also implement custom initialization methods in addition to, or instead of, this method.
 

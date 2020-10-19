@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "iOS GUPImage 硬编 Mp4 H264"
-date:    2016-01-28 18:00:53 +0800
-categories: jekyll update
+comments: true
 ---
 # 前言
 先前在android上写实时的视频通讯的时候有一个很大的麻烦，就是如何硬编H264(5.0以后android好像有新的媒体框架，可以直接输出想要的裸码数据）

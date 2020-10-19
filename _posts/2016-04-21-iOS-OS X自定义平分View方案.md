@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "iOS/OS X自定义平分View方案"
-date:   2016-02-29 18:00:53 +0800
-categories: jekyll update
+comments: true
 ---
 #### 先前在android平分一个View其实还是蛮简单的可以自定义，也可以用GridView。
 

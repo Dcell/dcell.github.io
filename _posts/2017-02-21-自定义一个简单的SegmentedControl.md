@@ -1,10 +1,7 @@
 ---
 layout: post
-title:  "自定义一个简单的SegmentedControl"
-date:   2017-02-20 14:41:25 +0800
-categories: jekyll update
+comments: true
 ---
-# 自定义一个简单的SegmentedControl
 
 先大概看下我们想实现简单的效果
 ### ![segment]({{ site.url }}/assets/media/14872996299734/segment.gif)
