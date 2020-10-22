@@ -15,7 +15,7 @@ minima:
   # generate social links in footer
   social_links:
     #twitter: jekyllrb
-    github:  Dcell
+    #github:  Dcell
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -39,8 +39,8 @@ minima:
     #   instance: example.com
 
     # GitLab instances
-    # gitlab:
-    # - username: jekyll
+    gitlab:
+     - username: dcell
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com

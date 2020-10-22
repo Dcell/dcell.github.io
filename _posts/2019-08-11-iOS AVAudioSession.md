@@ -1,3 +1,8 @@
+---
+title:  "iOS AVAudioSession"
+layout: post
+comments: true
+---
 随着智能手机的普及，一些常用的app基本都有音频相关的功能，录音/播放等等；网上的一般的信息都是怎么使用api去播放音频/录制音频。但最重要的信息，AVAudioSession反而不怎么重视。这里将参考官方文档进行一个简单的梳理。
 ## AVAudioSession Category
 `Category`是AVAudioSession第一要素，往往决定了你当前应用音频的能力，如：播放/录制等
