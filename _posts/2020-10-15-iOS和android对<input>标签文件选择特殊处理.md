@@ -3,7 +3,7 @@ title: 'iOS/android Webview 对<input>标签的特殊处理'
 layout: post
 comments: true
 ---
-在项目集成中，WebApp需要拍照或者选择相册的图片，一般来说前端都是采用<input>标签；这个时候浏览器会触发文件选择器，选择一个文件并且返回。在移动端中，iOS WKWebview默认实现了，一般会弹出相册和拍照2个选项，而在android中，默认是没有反应，需要我们单独去实现。
+在项目集成中，WebApp需要拍照或者选择相册的图片，一般来说前端都是采用`<input>`标签；这个时候浏览器会触发文件选择器，选择一个文件并且返回。在移动端中，iOS WKWebview默认实现了，一般会弹出相册和拍照2个选项，而在android中，默认是没有反应，需要我们单独去实现。
 但是一般选择图片，无法满足一些需求场景，比如需要要求对选择的图片进行编辑 涂鸦等，这个时候需要内置的方法进行一个Hook，我这里给出一个方案供大家参考。
 
 ## [WKFileUploadPanel.mm](https://opensource.apple.com/source/WebKit2/WebKit2-7601.1.46.9/UIProcess/ios/forms/WKFileUploadPanel.mm.auto.html) 
