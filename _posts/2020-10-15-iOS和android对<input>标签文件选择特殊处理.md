@@ -102,7 +102,7 @@ comments: true
 ```
 
 ## 方案
-如果我们要通过选择图片进行加工，`hook‘ didFinishPickingMediaWithInfo` 是给不错的选择。
+如果我们要通过选择图片进行加工，`hook‘ didFinishPickingMediaWithInfo` 是个不错的选择。
 
 ```
 void webFileUploadHooker(id self, SEL _cmd, UIImagePickerController *imagePicker, NSDictionary *info) {
