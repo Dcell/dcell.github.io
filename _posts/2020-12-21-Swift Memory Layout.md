@@ -49,14 +49,6 @@ MemoryLayout<Person>.alignment //8
 
 ```
 
-如图的结构体对应的size、stride、alignment 是怎么计算出来的？
-
-```apl
-Size(Person) = Size(Person.var1) + Size(Person.var2) + Size(Person.var3) + ...
-```
-
-
-
 ### stride & alignment
 
 #### 什么是内存对齐
@@ -96,11 +88,9 @@ MemoryLayout<Int64>.alignment //8
 
 ![截屏2020-12-23 下午2.58.04.png](https://i.loli.net/2020/12/23/efQR4EK8pP2xM3V.png)
 
-请画出：未交互属性之前的内存图
+请画出：未交换属性之前的内存图
 
 ![截屏2020-12-23 下午3.17.35.png](https://i.loli.net/2020/12/23/Lxr1caFZADozbsi.png)
-
-
 
 ### 实战
 
@@ -143,3 +133,12 @@ XCTAssertTrue(person.sex == person2.sex && person.age == person2.age)
 //pass
 ```
 
+### 总结
+
+- MemoryLayout<T>.alignment = Max( MemoryLayout<T.var1>.alignment  ，MemoryLayout<T.varn>.alignment )
+
+- MemoryLayout<T>.size =  MemoryLayout<T.var1>.size + padding + ... + MemoryLayout<T.varn>.size
+
+- MemoryLayout<T>.stride = MemoryLayout<T>.size + padding
+
+  其中padding是通过内存对其来计算的
