@@ -78,7 +78,7 @@ UIView.animate(withDuration: 5) {
 }
 ```
 
-其中1处，打印action 为 <null> ,  2处打印为 **_UIViewAdditiveAnimationAction** 应该是个实现了CAAction协议的内部类，验证了我们上面的猜想。
+其中1处，打印action 为 **<null>** ,  2处打印为 **_UIViewAdditiveAnimationAction** 应该是个实现了CAAction协议的内部类，验证了我们上面的猜想。
 
 继续打印 CALayer  添加动画的函数
 
