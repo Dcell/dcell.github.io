@@ -1,11 +1,7 @@
-
-
+---
 title: 'Dark mode on the web'
-
 layout: post
-
 comments: true
-
 ---
 
 随着App混合开发的流行，一些复杂App往往会加载一些H5相关的网页；自从iOS 13加入暗黑模式以后，android的一些厂商也加入了暗黑模式。如果在暗黑模式中加载了一个正常的H5样式，那么对视觉的冲击是比较大的，所以我们需要H5 Web能随着系统的模式自动切换。
