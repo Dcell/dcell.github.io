@@ -1,4 +1,5 @@
 ---
+title: "React Vs Vue"
 layout: post
 comments: true
 ---

@@ -1,4 +1,5 @@
 ---
+title: "iOS OSX自定义平分View方案"
 layout: post
 comments: true
 ---

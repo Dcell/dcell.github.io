@@ -1,4 +1,5 @@
 ---
+title: "UIView的initWithFrame和initWithCoder"
 layout: post
 comments: true
 ---
